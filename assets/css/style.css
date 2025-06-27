@@ -132,3 +132,13 @@
   width: 920px;
   margin: 0 auto;
 }
+.social-icon svg {
+  fill: #638763;
+  width: 24px;
+  height: 24px;
+  transition: fill 0.3s ease;
+}
+
+.social-icon:hover svg {
+  fill: #42694e;
+}
