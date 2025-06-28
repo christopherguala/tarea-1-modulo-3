@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #121712;
+}
+
+.main {
+  margin: 20px 160px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 16px;
+  align-items: flex-start;
+  gap: 40px;
+  align-self: stretch;
+}
+
+.section-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.section-title {
+  color: #121712;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 45px;
+  letter-spacing: -1px;
+}
+
+.section-p {
+  color: #121712;
+  width: 720px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.section-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 301px;
+  padding: 16px;
+  gap: 12px;
+  border-radius: 8px;
+  border: 1px solid #dbe5db;
+  align-self: stretch;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  align-self: stretch;
+}
+
+.card-p {
+  color: #638763;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
